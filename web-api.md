@@ -40,3 +40,15 @@ Client should not assume it is connected to the end system because intermediate 
 
 RPCs are like function calls in the context of HTTP API. The method name would be in URL and the params are in query string or body. Great when you are doing actions but are not necessarily tie to updating a resource.
 
+
+### Cookies
+
+- Mechanism to have state in http request/response
+- Once server set, browser will return cookie on subsequent requests
+
+
+### Follow up
+Cross origin resource sharing
+
+
+
